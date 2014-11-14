@@ -1,0 +1,94 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>where2go</title>
+
+
+    <script type='text/javascript' src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- JavaScript jQuery code from Bootply.com editor  -->
+
+    <script type='text/javascript'>
+
+        $(document).ready(function() {
+
+            /* smooth scrolling for scroll to top */
+            $('.scroll-top').click(function(){
+                $('body,html').animate({scrollTop:0},800);
+            })
+            /* smooth scrolling for scroll down */
+            $('.scroll-down').click(function(){
+                $('body,html').animate({scrollTop:$(window).scrollTop()+800},1000);
+            })
+
+            /* highlight the top nav as scrolling occurs */
+            $('body').scrollspy({ target: '#navbar' })
+        });
+
+    </script>
+</head>
+
+<body>
+
+<div class="avbar navbar-fixed-top alt" data-spy="affix" data-offset-top="1000">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">Home</a>
+            <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+        </div>
+        <nav>
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#descricao">Descrição</a></li>
+                    <li><a href="#screencast">Screencast</a></li>
+                    <li><a href="#sprint">Sprint</a></li>
+                    <li><a href="#parceiros">Parceiros</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+        <div class="header alt vert">
+            <div class="container">
+
+                <h1>Where2GO</h1>
+
+                <p class="lead">Seus eventos em um só lugar.</p>
+
+                <div>&nbsp;</div>
+            </div>
+        </div>
+
+    <div id="descricao" class="blurb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h1>Informações</h1>
+                    <p class="lead">Where2Go é um aplicativo que propõe uma solução mais prática e intuitiva aos aplicativos de eventos
+                        existentes atualmente, onde é possível cadastrar, verificar e confirmar presença nestes eventos.
+                        Utilizando a localização geográfica será possível traçar rotas e exibir pontos de eventos no mapa.
+                        Quando aliado à integração com o Facebook, o usuário bastará conectar-se à sua conta para facilitar a
+                        busca dos pontos cadastrados por amigos ou convidá-los. Os eventos cadastrados no aplicativo podem ser
+                        festas,
+                        promoções em estabelecimentos comerciais, reuniões públicas ou privadas, dentre outros. Além das
+                        informações
+                        de nome,
+                        local, data e horário, é possível adicionar restrições próprias e informações adicionais que poderão ser
+                        usadas como
+                        filtros para facilitar a busca do usuário pelos eventos que ele deseja ter conhecimento. Além disso,
+                        propomos uma
+                        funcionalidade de exibição dos eventos e promoções de pontos comerciais cadastrados por estes
+                        estabelecimentos no aplicativo.
+                        Estas promoções também poderão aparecer para todos os usuários independente de sua localização, para
+                        isto,
+                        planos especiais deverão ser contratados pela empresa que deseja anunciar.</p>
+                </div>
+                <div class="col-md-5">
+                    <h1 class="pull-right"><i class="icon-mobile-phone icon-3x"></i> <i class="icon-tablet icon-3x"></i> <i class="icon-laptop icon-3x"></i></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
